@@ -26,12 +26,13 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  let i = 0
+  let line = []
   
-  
-  while (i < katzDeliLine.length) {
-    i++
+  for (let i = 0; i < katzDeliLine.length; i++) {
+    line.push(katzDeliLine[i])
   }
+  
+  
   
  
 }
