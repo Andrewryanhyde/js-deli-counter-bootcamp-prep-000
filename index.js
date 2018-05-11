@@ -29,7 +29,7 @@ function currentLine(katzDeliLine) {
   let line = []
   
   for (let i = 0; i < katzDeliLine.length; i++) {
-    line.push(katzDeliLine[i])
+    line.push(katzDeliLine[i+1])
   }
   
   
