@@ -33,7 +33,7 @@ function currentLine(katzDeliLine) {
   } else {
   
   for (let i = 0; i < katzDeliLine.length; i++) {
-    line.push(`${i+1}.${katzDeliLine[i]}`)
+    line.push(`${i+1}. ${katzDeliLine[i]}`)
   }
   }
   let newLine = line.join(', ')
