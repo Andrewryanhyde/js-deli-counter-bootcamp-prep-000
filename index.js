@@ -36,6 +36,6 @@ function currentLine(katzDeliLine) {
     line.push(`${i+1}.${katzDeliLine[i]}`)
   }
   }
-  let newLine = line.join(, )
+  let newLine = line.join(', ')
   return ('The line is currently: '+newLine)
 }
