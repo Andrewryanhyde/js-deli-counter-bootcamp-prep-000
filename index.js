@@ -8,7 +8,7 @@ function takeANumber(katzDeliLine, name) {
 
 
 function nowServing(katzDeliLine) {
-  i = 0 
+  let i = 0 
   while (i < katzDeliLine.length) {
     i++
   }
